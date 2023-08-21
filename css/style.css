@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(47, 60, 83);
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+.box, form{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 250px;
+    height: 25px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+button{
+    width: 100px;
+    height: 25px;
+}
